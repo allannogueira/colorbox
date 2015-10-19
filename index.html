@@ -1,0 +1,47 @@
+<html>
+<head>
+	<!--Lightbox PARA 3M, é só adicionar esse arquivo 1258566507583 -->
+	<!-- link href="/3MContentRetrievalAPI/BlobServlet?assetId=1258566507583&amp;assetType=MMM_Image&amp;blobAttribute=ImageFile" rel="stylesheet" /-->
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="colorbox.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="colorbox.css" type="text/css" />	
+	<script type="text/javascript">
+		
+			 function lightItUp() {
+			  $(document).ready(function() {
+				 try {
+					<!-- para fotos -->
+					 $("a[name='lightItUp']").colorbox({
+							  photo : true,
+							  rel:'group1'
+					 });
+					 <!-- para videos -->
+					 $("a[name='lightItUpVideo']").colorbox({
+							iframe:true, 
+							width:"525px", 
+							height:"350px",
+							 rel:'group1'
+					 });
+				} catch (e) {}
+			});
+			}
+			try {
+			  lightItUp();
+			} catch (e) {
+			   if (window.console && window.console.log) {
+				  window.console.log(e.message);
+			   }
+			}
+	</script>
+</head>
+
+<body>
+	<a name="lightItUpVideo" title="Cerimônia de Abertura, Jose Varela – 3M" href="http://bcove.me/3sh0w4bf" class="cboxElement"><img src="http://3msource.mmm.com/3MContentRetrievalAPI/SecuredBlobServlet?lmd=1396025383000&locale=pt_BR&assetType=MMM_Image&assetId=1361793053366&blobAttribute=ImageFile&isSecured=true"></a>	
+	<a name="lightItUp" title="Cerimônia de Abertura, Jose Varela – 3M" href="http://3msource.mmm.com/3MContentRetrievalAPI/SecuredBlobServlet?lmd=1396025383000&locale=pt_BR&assetType=MMM_Image&assetId=1361793053366&blobAttribute=ImageFile&isSecured=true" class="cboxElement"><img src="http://3msource.mmm.com/3MContentRetrievalAPI/SecuredBlobServlet?lmd=1396025383000&locale=pt_BR&assetType=MMM_Image&assetId=1361793053366&blobAttribute=ImageFile&isSecured=true"></a>	
+	<a name="lightItUp" title="Cerimônia de Abertura, Dr. Gilson Novaes - Mackenzie" href="/3MContentRetrievalAPI/BlobServlet?lmd=1327326119000&amp;locale=pt_BR&amp;assetType=MMM_Image&amp;assetId=1361793053379&amp;blobAttribute=ImageFile" class="cboxElement"><img src="/3MContentRetrievalAPI/SecuredBlobServlet?lmd=1396025423000&amp;locale=pt_BR&amp;assetType=MMM_Image&amp;assetId=1361793053379&amp;blobAttribute=ImageFile&amp;isSecured=true"></a>
+	
+	<a name="lightItUp" title="Cerimônia de Abertura, Dr. Gilson Novaes - Mackenzie" href="http://3msource.mmm.com/3MContentRetrievalAPI/SecuredBlobServlet?lmd=1396025383000&locale=pt_BR&assetType=MMM_Image&assetId=1361793053366&blobAttribute=ImageFile&isSecured=true"></a>
+	
+	
+</body>
+</html>
